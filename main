@@ -1,0 +1,25 @@
+import 'dart:io';
+import 'default constructor.dart';
+import 'named constructor.dart';
+
+void main() {
+  print("Default Constructor :");
+  // Creating Instance of class
+  constructor geek = new constructor();
+
+  // Calling field name geek1
+  // and assigning value to it
+  // using object of the class Gfg
+  geek.geek1 = 'GeeksforGeeks';
+
+  // Calling function name
+  // geek using object
+  // of the class Gfg
+  geek.geek();
+
+  print("");
+
+  print("Named Constructor :");
+  Car c1 = new Car.namedConst('E1001');
+  Car c2 = new Car();
+}
