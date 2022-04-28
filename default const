@@ -1,0 +1,18 @@
+// Creating Class named Gfg
+class constructor {
+  late String geek1;
+
+  // Creating Constructor
+  Gfg() {
+    // Whenever constructor is called
+    // this statement will run
+    print('Constructor is being created');
+  }
+
+  // Creating Field inside the class
+
+  // Creating Function inside class
+  geek() {
+    print("Welcome to $geek1");
+  }
+}
